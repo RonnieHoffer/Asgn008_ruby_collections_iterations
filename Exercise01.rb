@@ -31,8 +31,46 @@ names_ages = {
 }
 
 # *********************************************************
+# Exercise 3
+
+# *********************************************************
 # Exercise 2
 
+
+# fav_col_strings.sort!
+# ages.sort!
+# coin_toss.sort!
+# performers.sort!
+# fav_col_symbols.sort!
+
+# fav_col_strings.reverse!
+# ages.reverse!
+# coin_toss.reverse!
+# performers.reverse!
+# fav_col_symbols.reverse!
+
+# puts "#{fav_col_strings.sort.reverse}"
+# puts "#{ages.sort.reverse}"
+# puts "#{coin_toss.sort.reverse}"
+# puts "#{performers.sort.reverse}"
+# puts "#{fav_col_symbols.sort.reverse}"
+
+# # *********************************************************
+
+# puts "#{fav_col_strings.reverse}"
+# puts "#{ages.reverse}"
+# puts "#{coin_toss.reverse}"
+# puts "#{performers.reverse}"
+# puts "#{fav_col_symbols.reverse}"
+# puts "\n"
+
+# *********************************************************
+
+# puts "#{fav_col_strings.sort}"
+# puts "#{ages.sort}"
+# puts "#{coin_toss.sort}"
+# puts "#{performers.sort}"
+# puts "#{fav_col_symbols.sort}"
 
 # *********************************************************
 # Exercise 1
