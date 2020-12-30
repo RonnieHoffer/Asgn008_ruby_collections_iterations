@@ -27,4 +27,4 @@ def big_access_toronto(input_array)
     return keep_big
 end
 
-puts big_access_toronto(venues)
+puts "#{big_access_toronto(venues)}"
