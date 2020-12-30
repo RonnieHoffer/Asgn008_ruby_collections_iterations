@@ -6,6 +6,7 @@ ages = [33, 35, 30, 36]
 coin_toss = ["heads", "tails", "heads", "heads", "tails"]
 performers = ["Shwekey", "Fried", "MBD"]
 fav_col_symbols = [:blue, :green, :brown]
+col_perf = ["Blue", "Green", "Brown", "Shwekey", "Fried", "MBD"]
 
 # *********************************************************
 # Hashes
@@ -36,8 +37,34 @@ names_ages = {
 
 
 # *********************************************************
-# Exercise 7
+# Exercise 7 - Part 3
 
+heads_array = coin_toss.select do |coin|
+    coin == "heads"
+end
+
+puts "#{heads_array}"
+
+# *********************************************************
+# Exercise 7 - Part 2
+
+# puts "The sum of the ages is #{ages.reduce(:+)}."
+
+
+# *********************************************************
+# Exercise 7 - Part 1
+
+# new_ages = ages.map do |age|
+#     age += 1
+# end
+
+# puts "#{new_ages}"
+
+
+# *********************************************************
+# Exercise 7 - Part 0
+
+# puts col_perf.sort
 
 
 # *********************************************************
