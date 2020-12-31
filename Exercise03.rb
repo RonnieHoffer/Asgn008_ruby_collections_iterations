@@ -13,18 +13,9 @@ venues = [
 # Find the possible venues that are wheelchair accessible, in Toronto, and can fit at least 150 people. These results should be stored in an array.
 
 def big_access_toronto(input_array)
-    puts input_array
+    # puts input_array
     puts "\n"
-    keep_toronto = input_array.select {|a| a[:city] == "Toronto"}
-    puts keep_toronto
-    puts "\n"
-    keep_access = keep_toronto.select {|a| a[:wheelchair_accessible] == true}
-    puts keep_access
-    puts "\n"
-    keep_big = keep_access.select {|a| a[:capacity] >= 150}
-    puts keep_big
-    puts "\n"
-    return keep_big
+    keep_winners = input_array.select {|a| a[:city] == "Toronto" && a[:wheelchair_accessible] == true && a[:capacity] >= 150}
 end
 
 puts "#{big_access_toronto(venues)}"

@@ -41,12 +41,12 @@ project = {
 def assign_tasks(input_hash, input_people)
     counter = 0
     input_hash[:steps].each do |task|
-        task[:member] = "#{input_people[counter]}"
+        task[:member] = input_people[counter]
         counter += 1
-        if counter == 4
+        if counter == input_people.length
             counter = 0
         end
-        puts task
+        # puts task
     end
     return input_hash
 end

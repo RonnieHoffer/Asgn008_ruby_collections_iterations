@@ -39,11 +39,11 @@ names_ages = {
 # *********************************************************
 # Exercise 7 - Part 3
 
-heads_array = coin_toss.select do |coin|
-    coin == "heads"
-end
+# heads_array = coin_toss.select do |coin|
+#     coin == "heads"
+# end
 
-puts "#{heads_array}"
+# puts "#{heads_array}"
 
 # *********************************************************
 # Exercise 7 - Part 2
@@ -64,7 +64,7 @@ puts "#{heads_array}"
 # *********************************************************
 # Exercise 7 - Part 0
 
-# puts col_perf.sort
+puts col_perf.sort
 
 
 # *********************************************************
