@@ -61,7 +61,6 @@ def choose_seat(free_seats)
     # name = nil
     return_array = []
     free_seats.each do |row|
-        # label_try_again
         puts "Row #{row[:row]}, seat #{row[:seat]} is free.  Would you like to sit there (y/n)?"
         answer = gets.chomp
         if answer == "y"
@@ -73,7 +72,7 @@ def choose_seat(free_seats)
             break
         elsif answer == "n"
         # else
-        #     puts "invalid entry.  Please try again"   # but I couldn't seems to find a "goto" method in ruby, which I wanted to use to go back to "label_try_again" a few lines above.
+            # puts "invalid entry.  Please try again"  # I could not figure out how to get this to go back to the beginning of the loop without advancing to the next |row|.
         end
     end
     return return_array
